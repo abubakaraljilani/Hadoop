@@ -29,7 +29,7 @@
 
    cd
 
-    **********Copy from S# to HDFS*****
+    **********Copy from S3 to HDFS*****
 
    hadoop dfs -cp s3a://<bucket-name>/<file-name> hdfs:///user/hduser/
 
