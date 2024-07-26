@@ -11,7 +11,7 @@
    nano core-site.xml
 
    <property>
-   <name>fs.s3a.access.key</name>
+   <name>fs.s3.access.key</name>
    <description>AWS access key ID used by S3A file system.</description>
    <value>keyid press here</value>
    </property>
@@ -95,7 +95,7 @@
  <property>
  <name>fs.s3.impl</name>
  <value>org.apache.hadoop.fs.s3.S3FileSystem</value>
- <description>The FileSystem for s3a: S3 uris.</description>
+ <description>The FileSystem for s3: S3 uris.</description>
  </property>
 
 
